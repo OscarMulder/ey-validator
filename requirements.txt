@@ -1,0 +1,6 @@
+pillow
+flask
+pdf2image
+PyPDF2
+StringGenerator
+pytesseract

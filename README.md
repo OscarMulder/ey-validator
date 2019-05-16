@@ -1,5 +1,5 @@
-# Hackon
-Hackethon EY team validator
+# EY Validator
+Hackathon EY team validator
 
 ### 0. Install docker && clone repository
 Windows: https://docs.docker.com/docker-for-windows/install/

@@ -23,7 +23,9 @@ cd ey-validator
 The EY Validator should now be accessible at http://0.0.0.0:5000/
 
 ### 4. Find
-```docker ps```
+```
+docker ps
+```
 Copy the `container id`
 
 ### 5. Kill

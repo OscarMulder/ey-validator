@@ -16,6 +16,9 @@ filepath = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
+if __name__ == "__main__":
+	app.run(host='0.0.0.0')
+
 @app.after_request
 def after_request(response):
    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"

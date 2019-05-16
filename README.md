@@ -32,3 +32,5 @@ Copy the `container id`
 ```
 docker kill containerid
 ```
+
+Note: The currently used flask server is only made to handle one user at a time.
